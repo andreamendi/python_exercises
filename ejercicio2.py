@@ -42,11 +42,17 @@
 # print(nones)
 ##lista[num-1] += i  
 
+#índice indica en este caso indica la posición. 
+#Por ejemplo en el ejercicio de abajo, inicia en 0.
+
+
+#
 lista6 = [2,3,4,8,6,7]
 n = 0
 for num in lista6:
-    i = num + num
-    lista6[n]=i
-    n += 1
+  i = num + num
+  lista6[n]=i
+  n += 1
    
 print(lista6)
+

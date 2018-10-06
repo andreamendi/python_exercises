@@ -1,0 +1,3 @@
+Se debe de poner atención al orden importante.
+O sea a las posiciones del código. 
+Ya que sí pones una variable sin contenido, no sabe que hacer. 
