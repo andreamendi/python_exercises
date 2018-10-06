@@ -103,7 +103,7 @@
 # 8
 # Hacer un pseudocodigo que solo nos permita introducir SI o NO y Si la respuesta es SI termine la ejecución y 
 # si es NO pregunte de nuevo hasta que la respuesta sea SI.
-sino = "no"
+# sino = "no"
 
 
 # while sino == "no":
@@ -115,6 +115,73 @@ sino = "no"
 
 
 
-print("9")
+# print("9")
 # 9
 # Imprimir y contar los multiplos de 3 desde la unidad hasta un numero que introducimos por teclado.
+# y = 1
+# print("Digita un numero")
+# numero=int(input())
+# o = 0
+# while y <= numero:  
+#   print (y)
+
+  
+# while y <= numero:
+#   if y % 3 == 0:
+#     print (y)
+#     o += 1
+
+#   y += 1
+# print("En total fueron: {}".format(o))
+
+
+
+# print("10")
+# 10
+# Hacer un pseudocodigo que imprima los numeros del 1 al 100. Que calcule la suma de todos los numeros 
+# pares por un lado, y por otro, la de todos los impares. 
+# total = 0
+# total_par = 0
+# total_non = 0
+# r = 1
+
+# while r <= 100:
+#   if r % 2 == 0:
+#     total_par += r
+#     total += r
+#     r += 1
+#   else:
+#     total_non += r
+#     total += r
+#     r += 1
+
+# print("Total de pares: {}".format(total_par))
+# print("Total de nones: {}".format(total_non))
+# print("Total de totales: {}".format(total))
+
+print("11")
+# 11
+# Imprimir y contar los numeros que son multiplos de 2 o de 3 que hay entre 1 y 100.
+
+total = 0
+total_dos = 0
+total_tres = 0
+t = 1
+
+
+
+while t <= 100:
+  print("¿Multiplo de 2 'o 3?")
+  dostres = int(input())
+  if dostres % 2 == 0:
+    total_dos += t
+    total += t
+    t += 1
+  elif dostres % 3 == 0:
+    total_tres += t
+    total += t
+    t += 1
+  if dostres == 2:
+    print("El total con un multiplo de: {} fue = {}".format(dostres,total_dos)
+  elif dostres == 3:
+    print("El total con un multiplo de: {} fue = {}".format(dostres,total_tres)
