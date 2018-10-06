@@ -168,20 +168,18 @@ total_dos = 0
 total_tres = 0
 t = 1
 
-
+print("Multiplo de 2 o 3?")
+dostres = int(input())
 
 while t <= 100:
-  print("¿Multiplo de 2 'o 3?")
-  dostres = int(input())
-  if dostres % 2 == 0:
-    total_dos += t
-    total += t
-    t += 1
-  elif dostres % 3 == 0:
-    total_tres += t
-    total += t
-    t += 1
   if dostres == 2:
-    print("El total con un multiplo de: {} fue = {}".format(dostres,total_dos)
+    if t % 2 == 0:
+      total_dos += 1
+   
   elif dostres == 3:
-    print("El total con un multiplo de: {} fue = {}".format(dostres,total_tres)
+    if t % 3 == 0:
+      total_tres += 1    
+  t += 1
+
+print("Total con un multiplo de 3: {}".format(total_tres))
+print("Total con un multiplo de 2: {}".format(total_dos))
