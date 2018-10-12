@@ -7,6 +7,11 @@ class Perro:
         self.sexo = sexo
         self.ladrido = ladrido
     
+
+    #Aquí es para imprimir una variable y darle formato
+    def __str__(self):
+        return "Raza: {},  nombre: {}, sexo {}, ladrido{}".format(self.raza,self.nombre,self.sexo, self.ladrido)
+    
     #Cada método es independiente de lógica
     def ladrar(self):
         return self.ladrido
