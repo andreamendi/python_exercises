@@ -18,7 +18,7 @@ class Account:
             return "Funds Unavailable!"
 
 acct1 = Account('Jose',100)
-print(acct1.deposit(400))
+print(acct1.deposit(1100))
 print("--------------")
-print(acct1.withdraw(500))
+print(acct1.withdraw(1500))
 
