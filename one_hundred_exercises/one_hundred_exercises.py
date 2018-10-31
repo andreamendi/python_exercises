@@ -1,4 +1,7 @@
-100+ Python challenging programming exercises
+# 100+ Python challenging programming exercises
+# GitHub @andrea_mendi
+#  Empiezo el 30 de octubre del 2018
+
 
 1.	Level description
 Level	Description
@@ -27,13 +30,26 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 Hints: 
 Consider use range(#begin, #end) method
 
-Solution:
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
 
-print ','.join(l)
+#30 de octubre del 2018
+q_one = []
+
+for i in range(2000,3200):
+    if (i % 5 != 0) and (i % 7 == 0):
+        q_one.append(i)
+        i += 1
+        
+
+print(q_one)
+
+
+# Solution:
+# l=[]
+# for i in range(2000, 3201):
+#     if (i%7==0) and (i%5!=0):
+#         l.append(str(i))
+
+# print ','.join(l)
 #----------------------------------------#
 
 #----------------------------------------#
