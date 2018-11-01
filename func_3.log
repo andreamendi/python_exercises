@@ -1,0 +1,2 @@
+INFO:root:Ran with args: (1, 2), and kwargs: {}, results 3
+INFO:root:Ran with args: (1, 2, 3, 4, 5), and kwargs: {}, results 15
